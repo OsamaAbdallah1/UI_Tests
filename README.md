@@ -26,8 +26,8 @@ This project is a Selenium-based automation framework designed to test web appli
 
 1. **Clone the Repository**
     ```sh
-    git clone https://github.com/yourusername/selenium-automation-project.git
-    cd selenium-automation-project
+    git clone https://github.com/OsamaAbdallah1/UI_Tests.git
+    cd UI_Tests
     ```
 
 2. **Install Dependencies**
