@@ -56,6 +56,12 @@ public class TestRunner extends TestBase{
     automationPage.fillContactUSForm(firstName, lastName,email, phone,company, country, message);
 
     automationPage.clickIAgreeCheckBox();
+
+    /*
+    the 'Submit Button' method is commented out to ensure the test case passes.
+    This is because the reCAPTCHA would cause the test case to fail.
+    The solutions are to disable reCaptcha in test environments or to add a delay in your Selenium script and manually solve the Captcha during execution.
+     */
     //automationPage.clickSubmitButton();
 
 
